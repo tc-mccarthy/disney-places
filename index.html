@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- first step to a responsive site -->
+    <title>HTML Skeleton</title>
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="images">
+      <div class="image active" data-id="1">
+        <picture>
+          <source
+            srcset="https://i.ytimg.com/vi/zAzxnHP4erQ/maxresdefault.jpg"
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://img.staticdj.com/30cd785d1c49dbe543f32eaf83344f29.jpeg"
+          />
+        </picture>
+      </div>
+      <div class="image" data-id="2">
+        <picture>
+          <source
+            srcset="
+              https://static.wikia.nocookie.net/disney/images/e/e4/Roca_del_Rey.png/revision/latest?cb=20150106003848
+            "
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://avatars.mds.yandex.net/i?id=5a5a230ab4eb8e8874208aad746fbc61-4240295-images-thumbs&n=13"
+          />
+        </picture>
+      </div>
+      <div class="image" data-id="3">
+        <picture>
+          <source
+            srcset="
+              https://static2.srcdn.com/wordpress/wp-content/uploads/2020/04/Lilo-Stitch-e1586554363899.jpeg
+            "
+            media="(min-width: 681px)"
+          />
+          <img src="https://furrycdn.org/img/2021/3/8/72807/large.jpg" />
+        </picture>
+      </div>
+      <div class="image" data-id="4">
+        <picture>
+          <source
+            srcset="
+              https://www.mercurynews.com/wp-content/uploads/2017/11/sjm-l-coco-1120-4.jpg
+            "
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://img.wallpapersafari.com/phone/1440/2560/74/97/9a0xMV.jpg"
+          />
+        </picture>
+      </div>
+      <div class="image" data-id="5">
+        <picture>
+          <source
+            srcset="https://i.ytimg.com/vi/IGNL1JS7Cp8/maxresdefault.jpg"
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://avatars.mds.yandex.net/i?id=2a00000179f822172c20d536df75844c203f-4033154-images-thumbs&n=13"
+          />
+        </picture>
+      </div>
+      <div class="image" data-id="6">
+        <picture>
+          <source
+            srcset="
+              https://disneyrewards.com/app/uploads/2021/05/Facebook_Luca.jpg
+            "
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://picfiles.alphacoders.com/455/thumb-1920-455797.jpg"
+          />
+        </picture>
+      </div>
+      <div class="image" data-id="7">
+        <picture>
+          <source
+            srcset="
+              https://blogmickey.com/wp-content/uploads/2020/06/princess-frog-attraction-splash-mountain-boats.jpg
+            "
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://icanhaspixiedust.files.wordpress.com/2008/12/princessandthefrogswamp.jpg"
+          />
+        </picture>
+      </div>
+      <div class="image" data-id="8">
+        <picture>
+          <source
+            srcset="
+              https://raw.githubusercontent.com/chellmuth/gpu-motunui/master/refs/shotCam.png
+            "
+            media="(min-width: 681px)"
+          />
+          <img
+            src="https://micronations.wiki/images/8/8a/Motu_Nui_Easter_Island.jpg"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="slides">
+      <div class="slide screen" data-image="1">
+        <div class="container">
+          <h1>France</h1>
+          <p>Beauty and the Beast (A tale as old as time)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="2">
+        <div class="container">
+          <h1>Africa (Pride Rock, Zach. Pride Rock)</h1>
+          <p>The Lion King (The past can hurt)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="3">
+        <div class="container">
+          <h1>Hawaii</h1>
+          <p>Lilo and Stitch (Blue Punch Buggy!)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="4">
+        <div class="container">
+          <h1>Mexico</h1>
+          <p>Coco (Remember me)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="5">
+        <div class="container">
+          <h1>Agraba (not real, we know)</h1>
+          <p>Aladdin (You never had a friend like me)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="6">
+        <div class="container">
+          <h1>Italy</h1>
+          <p>Luca (Silencio, Bruno!)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="7">
+        <div class="container">
+          <h1>New Orleans</h1>
+          <p>Princess and the Frog (My Evangeline!)</p>
+        </div>
+      </div>
+      <div class="slide screen" data-image="8">
+        <div class="container">
+          <h1>Polynesia</h1>
+          <p>Moana (Boat snack!)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your javascript should be called here -->
+    <script src="https://watchjs.tcm.io/js/watch.min.js"></script>
+    <script src="main.js" async></script>
+  </body>
+</html>
