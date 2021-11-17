@@ -131,6 +131,15 @@ figcaption {
   position: relative;
 }
 
+.slide.white {
+  background-color: #fff;
+}
+
+.slide.white .container {
+  background-color: transparent;
+  color: #000;
+}
+
 .slide .container {
   background-color: rgba(0, 0, 0, 0.65);
   color: #fff;
