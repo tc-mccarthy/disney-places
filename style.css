@@ -155,6 +155,24 @@ figcaption {
   .mobile {
     display: none;
   }
+
+  .flex {
+    display: flex;
+  }
+
+  .images,
+  .slides {
+    flex-basis: 50%;
+  }
+
+  .images {
+    position: sticky;
+  }
+
+  .images img {
+    height: 100vh;
+    width: auto;
+  }
 }
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
